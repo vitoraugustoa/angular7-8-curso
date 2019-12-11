@@ -7,7 +7,10 @@ import {
   MatRadioModule,
   MatSelectModule,
   MatCheckboxModule,
-  MatInputModule
+  MatInputModule,
+  MatListModule,
+  MatIconModule,
+  MatButtonModule
 } from '@angular/material/';
 
 import { AppComponent } from './app.component';
@@ -16,6 +19,8 @@ import { NgStyleComponent } from './ng-style/ng-style.component';
 import { NgClassComponent } from './ng-class/ng-class.component';
 import { NgIfComponent } from './ng-if/ng-if.component';
 import { SubNgIfComponent } from './ng-if/sub-ng-if/sub-ng-if.component';
+import { NgContainerComponent } from './ng-container/ng-container.component';
+import { NgContentComponent } from './ng-content/ng-content.component';
 
 
 @NgModule({
@@ -24,7 +29,9 @@ import { SubNgIfComponent } from './ng-if/sub-ng-if/sub-ng-if.component';
     NgStyleComponent,
     NgClassComponent,
     NgIfComponent,
-    SubNgIfComponent
+    SubNgIfComponent,
+    NgContainerComponent,
+    NgContentComponent
   ],
   imports: [
     BrowserModule,
@@ -34,7 +41,10 @@ import { SubNgIfComponent } from './ng-if/sub-ng-if/sub-ng-if.component';
     MatRadioModule,
     MatSelectModule,
     MatCheckboxModule,
-    MatInputModule
+    MatInputModule,
+    MatIconModule,
+    MatListModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
