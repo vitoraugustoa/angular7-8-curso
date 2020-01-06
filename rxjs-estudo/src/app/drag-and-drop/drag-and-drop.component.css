@@ -1,0 +1,8 @@
+.rect {
+    height: 100px;
+    width: 100px;
+    background-color: #c07cff;
+    box-shadow: 5px 5px 2px #808080;
+    cursor: move;
+    position: absolute;
+}
