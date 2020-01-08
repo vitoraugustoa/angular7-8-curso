@@ -1,0 +1,18 @@
+Esquema do banco de dados
+
+Nome do banco: Requisicoes
+
+CREATE TABLE Products (
+	Name VARCHAR(50) NULL,
+	Department VARCHAR(50) NULL,
+	Price DECIMAL(10,2) NULL,
+)
+
+
+
+INSERT INTO Products (Name, Department, Price) 
+VALUES ('Product 1', 'Department 1', 1.20),('Product 2', 'Department 1', 31.20),('Product 3', 'Department 1', 41.20),
+('Product 4', 'Department 2', 12.20),
+('Product 5', 'Department 2', 11.20),('Product 6', 'Department 2', 21.20),('Product 7', 'Department 2', 21.20),
+('Product 8', 'Department 3', 71.20),('Product 9', 'Department 3', 51.20),
+('Product 10', 'Department 3', 61.20);
