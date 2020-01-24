@@ -6,11 +6,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { MaterialModule } from 'src/modules/material.module';
 import { HttpClientModule } from '@angular/common/http';
+import { DialogEditProductComponent } from './dialog-edit-product/dialog-edit-product.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DialogEditProductComponent
   ],
   imports: [
     BrowserModule,
@@ -18,6 +20,9 @@ import { HttpClientModule } from '@angular/common/http';
     MaterialModule,
     FormsModule,
     HttpClientModule
+  ],
+  entryComponents: [
+    DialogEditProductComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

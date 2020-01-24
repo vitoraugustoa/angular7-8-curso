@@ -1,0 +1,70 @@
+{ 
+    "name": "Produto 1",
+    "price": 10.0, 
+    "stock": 4
+}
+
+{ 
+    "name": "Produto 2",
+    "price": 13.5, 
+    "stock": 10,
+    "ProductDepartments": [
+        {
+          "DepartmentId": 1
+        },
+        {
+          "DepartmentId": 3
+        }
+    ]
+}
+
+
+{ 
+    "name": "Produto 23",
+    "price": 30.5, 
+    "stock": 25,
+    "ProductDepartments": [
+        {
+          "DepartmentId": 2
+        },
+        {
+          "DepartmentId": 4
+        }
+    ]
+}
+
+{ 
+	"Id": 
+    "name": "Produto 2 Atualizado",
+    "price": 100.5, 
+    "stock": 10,
+    "ProductDepartments": [
+        {
+          "DepartmentId": 2
+        },
+        {
+          "DepartmentId": 4
+        }
+    ]
+}
+
+
+
+{
+    "ProductId": 1,
+    "DepartmentId": 1
+}
+
+{
+    "name": "Departamento 1"
+}
+
+{
+    "name": "Departamento 2"
+}
+
+{
+    "name": "Departamento 3"
+}
+
+
